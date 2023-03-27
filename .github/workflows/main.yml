@@ -1,0 +1,19 @@
+parameters:
+
+  - name: environment
+    displayName: Environment
+    type: string
+    default: dev
+    values:
+      - dev
+      - test
+      - preprod
+      - prod
+
+  - name: deployment
+    displayName: deployment 
+    type: string
+    default: application.yml
+    values:
+      - application.yml
+      - reduce.yaml
